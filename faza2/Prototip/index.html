@@ -1,0 +1,103 @@
+<html>
+   
+
+     <head>
+       
+     </head>
+     <style>
+		body {
+		  background-image: url('pocetna.jpg');
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: cover;
+		}
+		
+		
+		</style>
+
+     <body>
+
+		<h1 align="center">
+		<font color="white">Vaše </font><font  color="#1a53ff" face="Brush Script MT" size="20">putovanje </font><font color="white">naša briga</font>
+		</h1>
+		
+
+		
+		
+		<form action="">
+			
+			
+		<table align="center" cellspacing="10" >
+			<th colspan="2" align="center"><font color="#000080">Log in </font></th>
+			<tr>
+				<td><font color="#000099"><b>Username: </b></font></td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td><font color="#000099"><b>Password: </b></font></td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td>
+					<b><font color="#000099">Pristupi kao</font></b>
+				</td>
+				<td>
+					<b><font color="#000099">moderator </font></b>
+					<input type="radio" name="korisnik" id="moderator" >
+					<b><font color="#000099">korisnik </font></b>
+					<input type="radio" name="korisnik" id="regkorisnik">
+
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right">
+				<b><font color="#000099">administrator </font></b>
+					<input type="radio" name="korisnik" id="admin">
+					</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right">
+					<input type="button" name="potvrdi" value="Potvrdi" onclick=redirectPage()>
+					<input type="button" name="odustani" value="Odustani">
+					
+				</td>
+			</tr>
+			<tr bgcolor="white" align="center" >
+				<td colspan="2">
+					<a href="kreiranjeNaloga.html"><b><font color="#000099">Kreiraj nalog </font></b></a>
+				</td>
+			</tr>
+
+		</table>
+	</form>
+	
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<p align="center" >
+		<a href="prototip310.html"><b><font color="#000033" size="6">Pristupi kao gost </font></b></a>
+	</p>
+		
+		
+		
+	 </body>
+	 <script>
+		function redirectPage(){
+			if(document.getElementById('moderator').checked){
+				window.location='moderator.html';
+				return false;
+			}
+			if(document.getElementById('admin').checked){
+				window.location='admin.html';
+				return false;
+			}
+			if(document.getElementById('regkorisnik').checked){
+				window.location='pocetna.html';
+				return false;
+			}
+			return true;
+	
+		}
+		</script>
+</html>
+
+
+				
