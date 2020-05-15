@@ -1,0 +1,39 @@
+.kreiranjeN {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(formaPozadina.jpg) no-repeat;
+  background-size: cover;
+}
+
+table{
+  border-radius: 25px;
+  background-color: whitesmoke;
+  padding: 20px;
+  width: 450px;
+}
+.A{
+    padding-top: 30px;
+}
+input[type=text],input[type=password],input[type=number],input[type=email], select {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+#ID2{
+    font-size: xx-large;
+}
