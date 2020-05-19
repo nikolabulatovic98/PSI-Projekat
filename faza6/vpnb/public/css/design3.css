@@ -1,3 +1,6 @@
+.sablon{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
 .navbar {
     float:center;
     overflow: hidden;
@@ -20,11 +23,11 @@
   }
   
   .dropdown .dropbtn {
-    background-color: #4CAF50!important;
+    background-color: #4CAF50;
     font-size: 16px;  
     border: none;
     outline: none;
-    color: white;
+    color: white !important;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -63,13 +66,6 @@
     display: block;
   } 
   
-  body {
-    background-image: url('pocetna.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-  .BB{
-    padding-top: 300px;
-  }
+ 
+  
   

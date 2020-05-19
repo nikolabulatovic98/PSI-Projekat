@@ -1,15 +1,34 @@
-<html>
-    <head>
-        <title>ETF Vesti</title>
-    </head>
-    <body>
-        <?= anchor("Korisnik/index", "Sve vesti") ?>
-        <?= anchor("Korisnik/mojeVesti", "Moje vesti") ?> 
-        <?= anchor("Korisnik/dodajVest", "Dodaj vest") ?> 
-        <div style="float: right">
-            Autor: <?php  echo $autor->ime." ".$autor->prezime." "; ?>
-            <?= anchor("Korisnik/logout", "Izloguj se") ?> 
-        </div>
-        <br>
-        <hr>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="\css\design3.css">
+</head>
+<body >
+    <div class="navbar">
+  <?= anchor("KorisnikM/index", "Najposećenije destinacije") ?>
+        <?= anchor("KorisnikM/index", "Pretraži putovanja") ?>
+        <?= anchor("KorisnikM/index", "Pronadji idealno putovanje") ?>
+  <div class="dropdown">
+      
+
+    <button class="dropbtn">Moj nalog
+              <i class="fa fa-caret-down"></i>
+
+    </button>
+      
+     
+    <div class="dropdown-content">
+      <?= anchor("KorisnikM/dodajPutovanje", "Dodaj putovanje") ?>
+        <?= anchor("KorisnikM/Postani_moderator", "Zahtev za moderatora") ?>
+      <?= anchor("KorisnikM/promena_lozinke", "Promeni lozinku") ?>
+      <?= anchor("KorisnikM/izlogujse", "Izloguj se") ?>
+    </div>
+  </div>
+</div>
+</body>
+</html>
         

@@ -10,6 +10,11 @@ use App\Models\ModeratorModel;
 
 class Gost extends BaseController
 {
+    public function index(){
+       // $vestModel=new VestModel();
+       // $vesti=$vestModel->findAll();
+        $this->prikaz('pocetna', []);
+    }
     protected function prikaz($page, $data) {
         $data['controller']='Gost';
         echo view('sablon/header_gost');
@@ -17,17 +22,17 @@ class Gost extends BaseController
         //echo view('sablon/footer');
     }
     
-    public function login($puruka=null){
-        $this->prikaz('login', ['poruka'=>$puruka]);
+    public function login($por=null){
+        $this->prikaz('login', ['poruka'=>$por]);
     }
-    public function kreiranje($puruka=null){
-        $this->prikaz('kreiranjeNaloga', ['poruka'=>$puruka]);
+    public function kreiranje($por=null){
+        $this->prikaz('kreiranjeNaloga', ['poruka'=>$por]);
     }
     
     public function kreirajNalog(){
     
       if(!$this->validate(['username'=>'trim|alpha_dash|required|min_length[5]|max_length[16]',
-            'password'=>'trim|required|min_length[5]|max_length[25]', 
+            'password'=>'trim|required|min_length[5]|max_length[25]|alpha_numeric', 
             'ime'=>'trim|required|min_length[3]|max_length[30]',
             'prezime'=>'trim|required|min_length[3]|max_length[30]',
             'god'=>'trim|required|min_length[4]|max_length[4]', 
@@ -43,13 +48,14 @@ class Gost extends BaseController
             ],
              'username'=>[
                  'min_length' => 'Minimalna dužina polja je 5 karaktera',
-                 'required'=> 'Ovo polje je obavezno',
+                 'required'=>'Ovo polje je obavezno',
                  'max_length' => 'Maksimalna dužina polja je 16 karaktera'
             ],
               'password'=>[
                  'min_length' => 'Minimalna dužina polja je 5 karaktera',
                  'required'=> 'Ovo polje je obavezno',
-                 'max_length' => 'Maksimalna dužina polja je 25 karaktera'
+                 'max_length' => 'Maksimalna dužina polja je 25 karaktera',
+                 'alpha_numeric'=>'Ovo polje mora da sadrži samo slova i cifre'
             ],
               'ime'=>[
                  'min_length' => 'Minimalna dužina polja je 3 karaktera',
@@ -92,6 +98,13 @@ class Gost extends BaseController
             'Ime'=>$this->request->getVar('ime'),
             'Prezime'=>$this->request->getVar('prezime')
         ]);
+        $regmod=new RegKorisnikModel();
+         $regmod->insert([
+            'Username'=>$this->request->getVar('username'),
+            'Email'=>$this->request->getVar('email'),
+             'Godiste'=>$this->request->getVar('god')
+        ]);
+        
         echo 'Baza je azururana';
             //na koju stranu da skocimo
             }
@@ -116,17 +129,20 @@ class Gost extends BaseController
            
            $m=$moder->find($this->request->getVar('korime'));
            if($m==null){
-               echo "Registrovani korisnik"; 
+               //echo "Registrovani korisnik"; 
                //skace na stranicu za korisnika
                
-               $this->session->set('korisnik', $kor);
+               $this->session->set('korisnik', $kor);      
+               return redirect()->to(site_url('KorisnikM'));
                
            }
            else
            {
-               echo 'Moderator';
+             
            //skace na stranicu za moderatora
             $this->session->set('korisnik', $kor);
+            
+            return redirect()->to(site_url('Moderator'));
         
            }
         
