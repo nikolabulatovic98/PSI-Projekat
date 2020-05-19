@@ -65,9 +65,5 @@ class BaseController extends Controller
         $this->prikaz('vesti',['vesti'=>$vesti, 
             'trazeno'=>$this->request->getVar('pretraga')]);
     }
-     public function index(){
-       // $vestModel=new VestModel();
-       // $vesti=$vestModel->findAll();
-        $this->prikaz('pocetna', []);
-    }
+     
 }
