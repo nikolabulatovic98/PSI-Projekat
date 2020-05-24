@@ -1,0 +1,26 @@
+#wrapper{
+    background-image: url('pexels-photo-219998.jpeg');
+}
+#naslov{
+    color: white;
+  
+    text-align: center;
+}
+
+
+.btn{
+  width: 25%;
+  background: none;
+  border: 2px solid #4caf50;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+#smth{
+    color: thistle;
+    text-align: left;
+    font-weight: bolder;
+    font-style: italic;
+}
