@@ -1,8 +1,0 @@
-CRITICAL - 2020-05-17 06:20:51 --> Undefined variable: data
-#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 74, Array)
-#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->Postani_moderator()
-#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
-#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
-#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
-#6 {main}
