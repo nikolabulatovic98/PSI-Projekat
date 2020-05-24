@@ -1,6 +1,0 @@
-CRITICAL - 2020-05-23 12:21:30 --> Class 'App\Filters\ModeratorFilter' not found
-#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(376): CodeIgniter\Filters\Filters->run('Moderator/izlog...', 'before')
-#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#2 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
-#3 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
-#4 {main}
