@@ -1,0 +1,739 @@
+CRITICAL - 2020-05-18 03:58:22 --> Undefined variable: por
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Administrator.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 15, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Administrator->index()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 04:00:28 --> Undefined variable: por
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Administrator.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 16, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Administrator->index()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 04:02:10 --> Undefined variable: por
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Administrator.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 17, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Administrator->index()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 04:02:11 --> Undefined variable: por
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Administrator.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 17, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Administrator->index()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 13:26:05 --> Undefined variable: vesti
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 19, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(21): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(14): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 13:57:30 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 20, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 13:58:48 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 20, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 13:58:49 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 20, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 13:59:30 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 20, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 13:59:31 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 20, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 14:05:24 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 63, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 14:13:48 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 15, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 14:14:06 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 15, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 14:19:41 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 56, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 14:22:45 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 56, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 14:22:47 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 56, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 14:22:48 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 56, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(15): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->index()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 14:24:08 --> Array to string conversion
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\v...', 56, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(82): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->dodajPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 14:24:25 --> Array to string conversion
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\v...', 56, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(82): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->dodajPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 14:24:26 --> Array to string conversion
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\v...', 56, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(82): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->dodajPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 14:28:28 --> sort() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sort() expects ...', 'C:\\wamp64\\www\\v...', 20, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(20): sort()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(82): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->dodajPutovanje()
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#11 {main}
+CRITICAL - 2020-05-18 14:31:14 --> Attempt to modify property 'ImeDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to modi...', 'C:\\wamp64\\www\\v...', 80, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->dodajPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 15:24:17 --> Invalid file: stranice/dodajPutovanje.php
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('stranice/dodajP...')
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajP...', Array, true)
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajP...', Array)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(107): App\Controllers\Moderator->prikaz('dodajPutovanje', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-18 15:24:34 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 22, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(107): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 15:24:55 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 22, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(107): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 15:27:43 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 22, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(107): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 15:31:00 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 22, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(107): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 15:32:15 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 22, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(107): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 15:32:32 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 22, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(107): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 15:34:04 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodajOpis.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 22, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodajO...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(22): view('stranice/dodajO...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(107): App\Controllers\Moderator->prikaz('dodajOpis', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 16:08:00 --> Class 'App\Controllers\DestinacijeModel' not found
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-18 16:08:53 --> Class 'App\Controllers\DestinacijeModel' not found
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-18 16:08:59 --> Class 'App\Controllers\DestinacijeModel' not found
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-18 16:09:48 --> Class 'App\Controllers\DestinacijeModel' not found
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-18 16:10:55 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 86, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:11:06 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 86, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:12:05 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodavanjePutovanja.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 30, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodava...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(20): view('stranice/dodava...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(87): App\Controllers\KorisnikM->prikaz('dodavanjePutova...', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 16:12:34 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodavanjePutovanja.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 30, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodava...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(20): view('stranice/dodava...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(87): App\Controllers\KorisnikM->prikaz('dodavanjePutova...', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 16:12:39 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodavanjePutovanja.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 30, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodava...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(20): view('stranice/dodava...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(87): App\Controllers\KorisnikM->prikaz('dodavanjePutova...', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 16:12:48 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodavanjePutovanja.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 30, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodava...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(20): view('stranice/dodava...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(87): App\Controllers\KorisnikM->prikaz('dodavanjePutova...', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 16:12:49 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodavanjePutovanja.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 30, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodava...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(20): view('stranice/dodava...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(87): App\Controllers\KorisnikM->prikaz('dodavanjePutova...', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 16:12:55 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodavanjePutovanja.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 30, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodava...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(20): view('stranice/dodava...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(87): App\Controllers\KorisnikM->prikaz('dodavanjePutova...', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 16:13:53 --> Class 'App\Models\PutovanjeModel' not found
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-18 16:15:35 --> syntax error, unexpected ':', expecting ']'
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Moderator')
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('Moderator')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:15:44 --> syntax error, unexpected ':', expecting ']'
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Moderator')
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('Moderator')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:16:05 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-18 16:16:21 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-18 16:16:22 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-18 16:16:23 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-18 16:17:52 --> Class 'App\Models\PutovanjeModel' not found
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-18 16:18:45 --> Class 'App\Models\PutovanjeModel' not found
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-18 16:19:18 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getValue()
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-18 16:19:50 --> Call to undefined method App\Controllers\Moderator::getValue()
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-18 16:25:41 --> Trying to get property 'idDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 146, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:26:20 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 146, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:30:30 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 147, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:31:12 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 147, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:31:26 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 147, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:32:15 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 122, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:34:51 --> syntax error, unexpected ''IdDestinacije'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Moderator/dodaj...')
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('Moderator/dodaj...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:34:55 --> syntax error, unexpected ''IdDestinacije'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Moderator')
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('Moderator')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:39:30 --> Undefined variable: desin
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 147, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:40:02 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 147, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:48:13 --> Undefined variable: destinacije
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Views\stranice\dodavanjePutovanja.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 30, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\v...')
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/dodava...', Array, true)
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(20): view('stranice/dodava...', Array)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\KorisnikM.php(87): App\Controllers\KorisnikM->prikaz('dodavanjePutova...', Array)
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\KorisnikM->dodajPutovanje()
+#6 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KorisnikM))
+#7 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#10 {main}
+CRITICAL - 2020-05-18 16:50:11 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 148, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:50:43 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 149, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:54:41 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 155, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 16:56:49 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 158, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:01:29 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 150, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:02:59 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 125, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:09:32 --> Array to string conversion
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\v...', 131, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:10:02 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 158, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:10:51 --> Array to string conversion
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\v...', 131, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:11:34 --> Trying to get property 'IdDestinacije' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 131, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:11:59 --> Trying to get property 'ImeDrzave' of non-object
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\v...', 131, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:13:24 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(131): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\v...', 131, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:13:48 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(131): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\v...', 131, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:14:22 --> Undefined offset: 1
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\v...', 131, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:19:03 --> Undefined offset: 1
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\v...', 129, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-18 17:19:34 --> Undefined offset: 1
+#0 C:\wamp64\www\vpnb\vpnb\etfvest\app\Controllers\Moderator.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\v...', 129, Array)
+#1 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Moderator->novoPutovanje()
+#2 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Moderator))
+#3 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vpnb\vpnb\etfvest\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vpnb\vpnb\etfvest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
