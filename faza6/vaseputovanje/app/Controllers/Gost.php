@@ -167,4 +167,80 @@ class Gost extends BaseController
         
         
     }
+    
+    public function idealno_putovanje($poruka=null) {
+        $this->prikaz('IdealnoPutovanje', ['poruka'=>$poruka]);
+    }
+    
+    public function pronadji_idealno() {
+        $db = \Config\Database::connect();
+      //  $saputnik=$_POST['radio'];
+       $saputnik=$_POST['radio'];
+    //   echo $saputnik;
+       
+       if($_POST['radio1']==1) {
+    $u1=0;
+    $u2=18;
+}
+else if($_POST['radio1']==2) {
+    $u1=18;
+    $u2=35;
+}
+else if($_POST['radio1']==3) {
+    $u1=35;
+    $u2=55;
+}
+else
+   {
+    $u1=55;
+    $u2=120;
+    }
+    
+    
+    
+    $trajanje=$_POST['radio3'];
+ //   echo $trajanje;
+    
+    $tip=$_POST['radio2'];
+  //  echo $tip;
+    
+  //  echo $u1;
+  //  echo $u2;
+    
+   // echo $saputnik;
+    
+    $upit= "SELECT * FROM putovanje p, destinacija d
+WHERE d.IdDestinacije=p.IdDestinacije AND IdPutovanja = 
+(SELECT IdPutovanja
+FROM 
+(SELECT COUNT(*) AS Zadovoljeni, IdPutovanja FROM (SELECT IdPutovanja FROM putovanje p WHERE Trajanje = $trajanje
+ UNION ALL
+ SELECT IdPutovanja FROM putovanje p WHERE Saputnik = '$saputnik'
+ UNION ALL
+ SELECT IdPutovanja FROM putovanje p, destinacija d WHERE d.IdDestinacije = p.IdDestinacije AND  d.Tip = '$tip'
+ UNION ALL
+ SELECT IdPutovanja FROM putovanje p WHERE DonjiUzrast=$u1 AND GornjiUzrast=$u2) AS Kriterijumi GROUP BY IdPutovanja ORDER BY Zadovoljeni DESC LIMIT 1)AS BrojKriterijuma ) ";
+   $query=$db->query($upit);
+   $nadjeno=$query->getResult();
+   $this->prikaz('PredlogPutovanja', ['nadjeno'=>$nadjeno]);
+ 
+/* foreach ($query->getResult() as $row)
+{
+    //echo $row->Opis;
+     echo "Najbolje pronadjeno putovanje, shodno Vasim zeljama, je: "."$row->ImeDestinacije".","." $row->ImeDrzave";
+     echo "<br>";
+   if($row->Trajanje=='1') echo "Preporucujemo Vam da za ovo putovanje izdvojite 1-3 dana";
+   
+   else if($row->Trajanje=='5') echo "Preporucujemo Vam da za ovo putovanje izdvojite 5-7 dana";
+       else echo "Preporucujemo Vam da za ovo putovanje izdvojite bar 7 dana";
+    echo "<br>";
+    echo "Za saputnika Vam preporucujemo: "."$row->Saputnik";
+    echo "<br>";
+    echo "<br>";
+    echo $row->Opis;
+    
+    
+   
+} */
+    }
 }

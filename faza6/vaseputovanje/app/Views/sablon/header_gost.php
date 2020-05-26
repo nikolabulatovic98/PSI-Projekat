@@ -10,7 +10,7 @@
    
         <?= anchor("Gost/login", "Uloguj se") ?>
         <?= anchor("Gost/kreiranje", "Kreiraj nalog") ?> 
-        <?= anchor("Gost/kreiranje", "Traži putovanje") ?> 
+        <?= anchor("Gost/idealno_putovanje", "Traži putovanje") ?> 
             
         
       </div>

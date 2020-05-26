@@ -8,6 +8,7 @@
       <link rel="stylesheet" href="\css\style.css">
 </head>
 <body>
+    <form action="<?= site_url("Gost/pronadji_idealno") ?>" method="POST">
     <table class="mytable" align="center">
            <tr>
             <td class="pitanje">
@@ -17,19 +18,19 @@
             <tr>
                 <td>
                     <label class="container1">do 18
-                        <input type="radio" checked="checked" name="radio1">
+                        <input type="radio" checked="checked" name="radio1" value="1">
                         <span class="checkmark"></span>
                     </label>
                     <label class="container1">18 - 35
-                        <input type="radio" name="radio1">
+                        <input type="radio" name="radio1" value="2">
                         <span class="checkmark"></span>
                     </label>
                     <label class="container1">35 - 55
-                        <input type="radio" name="radio1">
+                        <input type="radio" name="radio1" value="3">
                         <span class="checkmark"></span>
                     </label>
                     <label class="container1">55+
-                        <input type="radio" name="radio1">
+                        <input type="radio" name="radio1" value="4">
                         <span class="checkmark"></span>
                     </label>
                     <hr>
@@ -43,23 +44,23 @@
            <tr>
                <td>
                 <label class="container1">Porodica
-                    <input type="radio" checked="checked" name="radio">
+                    <input type="radio" checked="checked" name="radio"  value="Porodica"  >
                     <span class="checkmark"></span>
                 </label>
                 <label class="container1">Voljena osoba
-                    <input type="radio" name="radio">
+                    <input type="radio" name="radio" value="Voljena osoba">
                     <span class="checkmark"></span>
                 </label>
-                <label class="container1">Prijatelji
-                    <input type="radio" name="radio">
+                <label class="container1">Društvo
+                    <input type="radio" name="radio" value="Društvo">
                     <span class="checkmark"></span>
                 </label>
                 <label class="container1">Poslovno putovanje
-                    <input type="radio" name="radio">
+                    <input type="radio" name="radio" value="Poslovno">
                     <span class="checkmark"></span>
                 </label>
                 <label class="container1">Solo putovanje
-                      <input type="radio" name="radio">
+                      <input type="radio" name="radio" value="Solo putovanje">
                       <span class="checkmark"></span>
                 </label>
                 <hr>
@@ -73,23 +74,23 @@
             <tr>
                 <td>
                 <label class="container1">Razgledanje znamenitosti
-                    <input type="checkbox" checked="checked" name="">
+                    <input type="radio" checked="checked" name="radio2" value="Gradovi Evrope">
                     <span class="checkmark"></span>
                 </label>
                 <label class="container1">Egzoticne destinacije i upoznavanje sa novim kulturama
-                    <input type="checkbox" name="">
+                    <input type="radio" name="radio2" value="Daleke">
                     <span class="checkmark"></span>
                 </label>
                 <label class="container1">Odmor i priroda
-                    <input type="checkbox" name="">
+                    <input type="radio" name="radio2" value="Izleti">
                     <span class="checkmark"></span>
                 </label>
                 <label class="container1">More i nightlife
-                    <input type="checkbox" name="">
+                    <input type="radio" name="radio2" value="Letovanje">
                     <span class="checkmark"></span>
                 </label>
                 <label class="container1">Skijanje, planinarenje i druge aktivnosti
-                    <input type="checkbox" name="">
+                    <input type="radio" name="radio2" value="Zimovanje">
                     <span class="checkmark"></span>
                 </label>
                 <hr>
@@ -103,15 +104,15 @@
             <tr>
                 <td>
                 <label class="container1">Vikend
-                    <input type="checkbox" checked="checked" name="">
+                    <input type="radio" checked="checked" name="radio3" value="1">
                     <span class="checkmark"></span>
                 </label>
                 <label class="container1">Nedelju dana
-                    <input type="checkbox" name="">
+                    <input type="radio" name="radio3" value="5">
                     <span class="checkmark"></span>
                 </label>
                 <label class="container1">Duže
-                    <input type="checkbox" name="">
+                    <input type="radio" name="radio3" value="7">
                     <span class="checkmark"></span>
                 </label>
                 <hr>
@@ -123,6 +124,7 @@
                 </td>
             </tr>
     </table>
+        </form>
 </body>
 </html>
 
