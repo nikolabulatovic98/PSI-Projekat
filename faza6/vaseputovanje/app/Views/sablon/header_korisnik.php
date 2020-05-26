@@ -11,7 +11,7 @@
 </head>
 <body >
     <div class="navbar">
-  <?= anchor("KorisnikM/index", "Najposećenije destinacije") ?>
+  <?= anchor("KorisnikM/najposecenije", "Najposećenije destinacije") ?>
         <?= anchor("KorisnikM/pretraga", "Pretraži putovanja") ?>
         <?= anchor("KorisnikM/IdealnoPutovanje", "Pronadji idealno putovanje") ?>
   <div class="dropdown">
@@ -25,6 +25,7 @@
      
     <div class="dropdown-content">
       <?= anchor("KorisnikM/dodajPutovanje", "Dodaj putovanje") ?>
+         <?= anchor("KorisnikM/mojaPutovanja", "Moja putovanja") ?>
         <?= anchor("KorisnikM/Postani_moderator", "Zahtev za moderatora") ?>
       <?= anchor("KorisnikM/promena_lozinke", "Promeni lozinku") ?>
         

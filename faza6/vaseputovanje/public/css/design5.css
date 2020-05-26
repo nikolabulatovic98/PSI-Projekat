@@ -1,0 +1,23 @@
+.myP {
+	text-align: center;
+	padding-left:15%;
+	padding-right:15%;
+	font-size: 20px;
+}
+.myDIV{
+     background-color:rgb(255,255,255,0.6);
+     margin: auto;
+     width: 60%;
+     
+}
+body{
+    background-image: url(summer-sea.jpg) !important; 
+    background-position:center;
+     background-size:cover;
+     font-family:sans-serif;
+     background-attachment: fixed;
+}
+
+ol{
+   font-size: 20px; 
+}
