@@ -386,7 +386,38 @@ else
         $this->prikaz('IdealnoPutovanje', ['poruka'=>$por]);
     }
     
-    public function idealno() {
+    /*public function idealno() {
+        
+    }*/
+    
+    public function mojaPutovanja(){
+         $db = \Config\Database::connect();
+         
+         $korisnik=$this->session->get('korisnik');
+         $name=$korisnik->Username;
+         
+         $upit="SELECT ImeDrzave, ImeDestinacije, Tekst from destinacija, komentar,jeputovao, seodnosina where destinacija.IdDestinacije = jeputovao.IdDestinacije and "
+                 . "jeputovao.Username='$name' and komentar.Username='$name' and seodnosina.IdDestinacije = destinacija.IdDestinacije and seodnosina.IdKom=komentar.IdKom";
+           
+           $query=$db->query($upit);
+         
+          $nadjeno=$query->getResult();
+         
+          $this->prikaz('MojaPutovanja', ['nadjeno'=>$nadjeno]);
+    }
+    
+    public function najposecenije(){
+        $db = \Config\Database::connect();
+        
+        $upit="SELECT ImeDrzave,ImeDestinacije,Opis, COUNT(jeputovao.IdDestinacije) AS broj FROM destinacija,jeputovao,putovanje "
+                . "WHERE destinacija.IdDestinacije=jeputovao.IdDestinacije AND destinacija.IdDestinacije=putovanje.IdDestinacije GROUP BY "
+                . "jeputovao.IdDestinacije ORDER BY broj DESC LIMIT 5";
+        
+        $query=$db->query($upit);
+         
+          $nadjeno=$query->getResult();
+         
+          $this->prikaz('najposecenije', ['nadjeno'=>$nadjeno]);
         
     }
        
