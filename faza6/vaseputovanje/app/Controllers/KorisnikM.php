@@ -385,6 +385,10 @@ else
        public function IdealnoPutovanje($por=null){
         $this->prikaz('IdealnoPutovanje', ['poruka'=>$por]);
     }
+    
+    public function idealno() {
+        
+    }
        
        
 }
