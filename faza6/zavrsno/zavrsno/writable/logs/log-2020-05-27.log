@@ -1,0 +1,32 @@
+CRITICAL - 2020-05-27 08:10:42 --> Undefined offset: 0
+#0 C:\wamp64\www\finale\app\Controllers\Gost.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\f...', 228, Array)
+#1 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#2 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#3 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-27 08:11:37 --> Undefined offset: 0
+#0 C:\wamp64\www\finale\app\Controllers\Gost.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\f...', 228, Array)
+#1 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#2 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#3 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-27 08:12:39 --> Undefined offset: 0
+#0 C:\wamp64\www\finale\app\Controllers\Gost.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\f...', 228, Array)
+#1 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#2 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#3 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-27 08:13:48 --> Undefined offset: 0
+#0 C:\wamp64\www\finale\app\Controllers\Gost.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\f...', 228, Array)
+#1 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#2 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#3 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}

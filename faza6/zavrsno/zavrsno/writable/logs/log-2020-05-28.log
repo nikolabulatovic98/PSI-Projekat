@@ -1,0 +1,549 @@
+CRITICAL - 2020-05-28 06:36:07 --> Unknown database 'putovanja22'
+#0 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\finale\finale\app\Controllers\Gost.php(226): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#3 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#4 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#8 {main}
+CRITICAL - 2020-05-28 06:39:28 --> Undefined property: stdClass::$img
+#0 C:\wamp64\www\finale\finale\app\Views\stranice\PredlogPutovanja.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 37, Array)
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/Predlo...', Array, true)
+#3 C:\wamp64\www\finale\finale\app\Controllers\Gost.php(24): view('stranice/Predlo...', Array)
+#4 C:\wamp64\www\finale\finale\app\Controllers\Gost.php(236): App\Controllers\Gost->prikaz('PredlogPutovanj...', Array)
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#6 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#7 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#10 {main}
+CRITICAL - 2020-05-28 06:45:27 --> Undefined variable: poruka
+#0 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 36, Array)
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->index()
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 06:47:25 --> Undefined variable: poruka
+#0 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 36, Array)
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->index()
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 06:47:26 --> Undefined variable: poruka
+#0 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 36, Array)
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->index()
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 06:47:27 --> Undefined variable: poruka
+#0 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 36, Array)
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->index()
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 06:56:45 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Model.php(937): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(51): CodeIgniter\Model->delete('dusan123')
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->ukloni()
+#3 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#4 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2020-05-28 07:04:07 --> Unknown column 'dusan123' in 'where clause'
+#0 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DELETE FROM Kor...')
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM Kor...')
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM Kor...')
+#3 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(54): CodeIgniter\Database\BaseConnection->query('DELETE FROM Kor...')
+#4 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->ukloni()
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2020-05-28 07:05:44 --> Unknown column 'dusan123' in 'where clause'
+#0 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DELETE FROM Kor...')
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM Kor...')
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM Kor...')
+#3 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(54): CodeIgniter\Database\BaseConnection->query('DELETE FROM Kor...')
+#4 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->ukloni()
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2020-05-28 07:05:52 --> Unknown column 'jankovic_a' in 'where clause'
+#0 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DELETE FROM Kor...')
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM Kor...')
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM Kor...')
+#3 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(54): CodeIgniter\Database\BaseConnection->query('DELETE FROM Kor...')
+#4 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->ukloni()
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2020-05-28 07:08:34 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 58, Array)
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->ukloni()
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 07:13:22 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Model.php(937): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(52): CodeIgniter\Model->delete('juice123')
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->ukloni()
+#3 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#4 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2020-05-28 07:18:14 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Model.php(937): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(52): CodeIgniter\Model->delete('Username=laza12...')
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->ukloni()
+#3 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#4 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2020-05-28 07:18:29 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Model.php(937): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(52): CodeIgniter\Model->delete('Username like l...')
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->ukloni()
+#3 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#4 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#7 {main}
+CRITICAL - 2020-05-28 07:25:11 --> Unknown column 'laza123' in 'where clause'
+#0 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DELETE FROM kor...')
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM kor...')
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM kor...')
+#3 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(56): CodeIgniter\Database\BaseConnection->query('DELETE FROM kor...')
+#4 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->ukloni()
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2020-05-28 07:28:18 --> Unknown column 'korisnik.Username' in 'where clause'
+#0 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DELETE FROM reg...')
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM reg...')
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM reg...')
+#3 C:\wamp64\www\finale\finale\app\Controllers\AjaxController.php(65): CodeIgniter\Database\BaseConnection->query('DELETE FROM reg...')
+#4 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AjaxController->ukloni()
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#6 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#9 {main}
+CRITICAL - 2020-05-28 09:23:17 --> Undefined property: stdClass::$img
+#0 C:\wamp64\www\finale\finale\app\Views\stranice\PredlogPutovanja.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 37, Array)
+#1 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/Predlo...', Array, true)
+#3 C:\wamp64\www\finale\finale\app\Controllers\Gost.php(24): view('stranice/Predlo...', Array)
+#4 C:\wamp64\www\finale\finale\app\Controllers\Gost.php(236): App\Controllers\Gost->prikaz('PredlogPutovanj...', Array)
+#5 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#6 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#7 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#10 {main}
+CRITICAL - 2020-05-28 09:50:08 --> Undefined property: stdClass::$Slike
+#0 C:\wamp64\www\finale\finale\finale\app\Views\stranice\PredlogPutovanja.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\f...', 37, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/Predlo...', Array, true)
+#3 C:\wamp64\www\finale\finale\finale\app\Controllers\Gost.php(24): view('stranice/Predlo...', Array)
+#4 C:\wamp64\www\finale\finale\finale\app\Controllers\Gost.php(236): App\Controllers\Gost->prikaz('PredlogPutovanj...', Array)
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#6 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#7 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#10 {main}
+CRITICAL - 2020-05-28 10:27:07 --> Object of class stdClass could not be converted to string
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorUkloni.php(26): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorUkloni->ukloni()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorUkloni))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 10:51:20 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Views\stranice\AdminInbox.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 32, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/AdminI...', Array, true)
+#3 C:\wamp64\www\finale\finale\finale\app\Controllers\Administrator.php(25): view('stranice/AdminI...', Array)
+#4 C:\wamp64\www\finale\finale\finale\app\Controllers\Administrator.php(61): App\Controllers\Administrator->prikaz('AdminInbox', Array)
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Administrator->inbox()
+#6 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#10 {main}
+CRITICAL - 2020-05-28 10:55:50 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Views\stranice\AdminInbox.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 32, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/AdminI...', Array, true)
+#3 C:\wamp64\www\finale\finale\finale\app\Controllers\Administrator.php(25): view('stranice/AdminI...', Array)
+#4 C:\wamp64\www\finale\finale\finale\app\Controllers\Administrator.php(61): App\Controllers\Administrator->prikaz('AdminInbox', Array)
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Administrator->inbox()
+#6 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrator))
+#7 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#10 {main}
+CRITICAL - 2020-05-28 10:56:15 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 24, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 10:56:50 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 24, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 10:57:26 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 24, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 10:57:27 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 24, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 10:57:28 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 24, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 10:59:31 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 10:59:33 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:00:56 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:00:57 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:00:58 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:00:58 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:00:59 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 26, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:01:54 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 23, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:02:15 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 23, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:05:25 --> Trying to get property 'Username' of non-object
+#0 C:\wamp64\www\finale\finale\finale\app\Views\stranice\AdminInbox.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 32, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/AdminI...', Array, true)
+#3 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(27): view('stranice/AdminI...', Array)
+#4 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(20): App\Controllers\AdministratorInbox->prikaz1('AdminInbox', Array)
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#6 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#7 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#10 {main}
+CRITICAL - 2020-05-28 11:05:41 --> Creating default object from empty value
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'C:\\wamp64\\www\\f...', 17, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:05:57 --> Creating default object from empty value
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'C:\\wamp64\\www\\f...', 17, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:05:58 --> Creating default object from empty value
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Creating defaul...', 'C:\\wamp64\\www\\f...', 17, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->index()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:19:57 --> Array to string conversion
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\f...', 52, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:20:01 --> Array to string conversion
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\f...', 52, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:21:34 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Views\stranice\AdminInbox.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 67, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/AdminI...', Array, true)
+#3 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(27): view('stranice/AdminI...', Array)
+#4 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(52): App\Controllers\AdministratorInbox->prikaz1('AdminInbox', Array)
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#6 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#7 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#10 {main}
+CRITICAL - 2020-05-28 11:21:37 --> Undefined variable: destinacije
+#0 C:\wamp64\www\finale\finale\finale\app\Views\stranice\AdminInbox.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\f...', 67, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\wamp64\\www\\f...')
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('stranice/AdminI...', Array, true)
+#3 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(27): view('stranice/AdminI...', Array)
+#4 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(52): App\Controllers\AdministratorInbox->prikaz1('AdminInbox', Array)
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#6 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#7 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#10 {main}
+CRITICAL - 2020-05-28 11:27:19 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 44
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(44): CodeIgniter\Model->findAll('danilodrobnjak')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:27:20 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 44
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(44): CodeIgniter\Model->findAll('laza123')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:27:57 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 44
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(44): CodeIgniter\Model->findAll('danilodrobnjak')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:27:58 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 44
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(44): CodeIgniter\Model->findAll('laza123')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:27:59 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 44
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(44): CodeIgniter\Model->findAll('danilodrobnjak')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:29:32 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 44
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(44): CodeIgniter\Model->findAll('danilodrobnjak')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:29:47 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 44
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(44): CodeIgniter\Model->findAll('danilodrobnjak')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:30:00 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 44
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(44): CodeIgniter\Model->findAll('danilodrobnjak')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:32:01 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 43
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(43): CodeIgniter\Model->findAll('danilodrobnjak')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:32:05 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 43
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(43): CodeIgniter\Model->findAll('laza123')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:33:40 --> Argument 1 passed to CodeIgniter\Model::__construct() must be an instance of CodeIgniter\Database\ConnectionInterface or null, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 43
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(43): CodeIgniter\Model->__construct('danilodrobnjak')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:33:41 --> Argument 1 passed to CodeIgniter\Model::__construct() must be an instance of CodeIgniter\Database\ConnectionInterface or null, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 43
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(43): CodeIgniter\Model->__construct('laza123')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:33:51 --> Argument 1 passed to CodeIgniter\Model::__construct() must be an instance of CodeIgniter\Database\ConnectionInterface or null, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 43
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(43): CodeIgniter\Model->__construct('danilodrobnjak')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 11:34:19 --> Argument 1 passed to CodeIgniter\Model::__construct() must be an instance of CodeIgniter\Database\ConnectionInterface or null, string given, called in C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php on line 43
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(43): CodeIgniter\Model->__construct('danilodrobnjak')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->dohV()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 13:43:53 --> syntax error, unexpected ']'
+#0 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('AdministratorIn...')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('AdministratorIn...')
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 13:44:00 --> syntax error, unexpected ']'
+#0 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('AdministratorIn...')
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('AdministratorIn...')
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 14:01:43 --> Trying to get property 'Pol' of non-object
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\f...', 49, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->inboxChecked()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 14:02:07 --> A non-numeric value encountered
+#0 C:\wamp64\www\finale\finale\finale\app\Controllers\AdministratorInbox.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\wamp64\\www\\f...', 54, Array)
+#1 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorInbox->inboxChecked()
+#2 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorInbox))
+#3 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale\finale\finale\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale\finale\finale\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
+CRITICAL - 2020-05-28 15:10:06 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 C:\wamp64\www\finale5\vendor\codeigniter4\framework\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('AdministratorIn...')
+#1 C:\wamp64\www\finale5\vendor\codeigniter4\framework\system\CodeIgniter.php(785): CodeIgniter\Router\Router->handle('AdministratorIn...')
+#2 C:\wamp64\www\finale5\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\finale5\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\finale5\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\finale5\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\f...')
+#6 {main}
