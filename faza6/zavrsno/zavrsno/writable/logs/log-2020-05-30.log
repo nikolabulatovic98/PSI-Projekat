@@ -1,0 +1,30 @@
+CRITICAL - 2020-05-30 11:08:18 --> Unknown database 'putovanja'
+#0 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\Model.php(381): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\zavrseno\app\Controllers\Gost.php(136): CodeIgniter\Model->find('oliverar')
+#5 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->loginSubmit()
+#6 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#7 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\zavrseno\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\z...')
+#10 {main}
+CRITICAL - 2020-05-30 14:41:14 --> Illegal string offset 'controller'
+#0 C:\wamp64\www\zavrseno\app\Controllers\AdministratorUkloni.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\z...', 55, Array)
+#1 C:\wamp64\www\zavrseno\app\Controllers\AdministratorUkloni.php(17): App\Controllers\AdministratorUkloni->prikaz1('ukloniKor', 'Korisnik ne pos...')
+#2 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorUkloni->ukloni()
+#3 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorUkloni))
+#4 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\zavrseno\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\z...')
+#7 {main}
+CRITICAL - 2020-05-30 14:41:29 --> Illegal string offset 'controller'
+#0 C:\wamp64\www\zavrseno\app\Controllers\AdministratorUkloni.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\z...', 55, Array)
+#1 C:\wamp64\www\zavrseno\app\Controllers\AdministratorUkloni.php(17): App\Controllers\AdministratorUkloni->prikaz1('ukloniKor', 'Korisnik ne pos...')
+#2 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\AdministratorUkloni->ukloni()
+#3 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdministratorUkloni))
+#4 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\zavrseno\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\zavrseno\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\z...')
+#7 {main}

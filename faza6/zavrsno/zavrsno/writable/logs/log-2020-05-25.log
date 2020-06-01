@@ -1,0 +1,289 @@
+CRITICAL - 2020-05-25 03:06:03 --> Undefined variable: por
+#0 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\v...', 172, Array)
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->idealno_putovanje()
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#3 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-25 03:28:45 --> Call to undefined method App\Controllers\Gost::getValue()
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-25 03:58:11 --> Undefined index: radio
+#0 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(177): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\v...', 177, Array)
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#3 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-25 04:00:01 --> Call to undefined method App\Controllers\Gost::getValue()
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-25 04:02:34 --> Call to undefined method App\Controllers\Gost::getValue()
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-25 04:02:37 --> Call to undefined method App\Controllers\Gost::getValue()
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-25 04:03:21 --> Call to undefined method App\Controllers\Gost::get_value()
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#5 {main}
+CRITICAL - 2020-05-25 04:07:12 --> Undefined index: radio
+#0 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\v...', 178, Array)
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#3 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-25 04:07:23 --> Undefined index: radio
+#0 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\v...', 178, Array)
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#3 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-25 04:07:46 --> Undefined index: radio
+#0 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\v...', 178, Array)
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#3 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-25 04:07:59 --> Undefined index: radio
+#0 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\v...', 178, Array)
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#3 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-25 05:01:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 IdPutovanja
+FROM 
+(SELECT COUNT(*) AS Zadovoljeni, IdPutovanja FROM Kriterij' at line 13
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('WITH Kriterijum...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('WITH Kriterijum...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('WITH Kriterijum...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(224): CodeIgniter\Database\BaseConnection->query('WITH Kriterijum...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 05:01:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';
+SELECT * FROM Putovanja
+WHERE IdPutovanja = 
+(SELECT TOP 1 IdPutovanja
+FRO' at line 9
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('WITH Kriterijum...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('WITH Kriterijum...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('WITH Kriterijum...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(223): CodeIgniter\Database\BaseConnection->query('WITH Kriterijum...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 05:03:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';
+SELECT * FROM putovanje
+WHERE IdPutovanja = 
+(SELECT TOP 1 IdPutovanja
+FRO' at line 9
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('WITH Kriterijum...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('WITH Kriterijum...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('WITH Kriterijum...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(223): CodeIgniter\Database\BaseConnection->query('WITH Kriterijum...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 05:04:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';
+SELECT * FROM putovanje
+WHERE IdPutovanja = 
+(SELECT TOP 1 IdPutovanja
+FRO' at line 9
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('WITH Kriterijum...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('WITH Kriterijum...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('WITH Kriterijum...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(223): CodeIgniter\Database\BaseConnection->query('WITH Kriterijum...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 05:51:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM putovanje
+WHERE IdPutovanja = 
+(SELECT TOP 1 IdPutovanja
+FROM ' at line 10
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('CREATE VIEW Kri...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE VIEW Kri...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE VIEW Kri...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(223): CodeIgniter\Database\BaseConnection->query('CREATE VIEW Kri...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 05:53:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM putovanje
+WHERE IdPutovanja = 
+(SELECT TOP 1 IdPutovanja
+FROM ' at line 10
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('CREATE VIEW Kri...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE VIEW Kri...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE VIEW Kri...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(223): CodeIgniter\Database\BaseConnection->query('CREATE VIEW Kri...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 06:12:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE VIEW Kriterijumi AS
+SELECT IdPutovanja FROM putovanje p WHERE Trajanje =' at line 2
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DROP VIEW IF EX...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DROP VIEW IF EX...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DROP VIEW IF EX...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(224): CodeIgniter\Database\BaseConnection->query('DROP VIEW IF EX...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 06:13:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE VIEW Kriterijumi AS
+(SELECT IdPutovanja FROM putovanje p WHERE Trajanje ' at line 2
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DROP VIEW IF EX...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DROP VIEW IF EX...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DROP VIEW IF EX...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(224): CodeIgniter\Database\BaseConnection->query('DROP VIEW IF EX...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 06:14:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE VIEW Kriterijumi AS
+(SELECT IdPutovanja FROM putovanje WHERE Trajanje = ' at line 2
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DROP VIEW IF EX...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DROP VIEW IF EX...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DROP VIEW IF EX...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(224): CodeIgniter\Database\BaseConnection->query('DROP VIEW IF EX...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 06:15:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE VIEW Kriterijumi AS
+(SELECT IdPutovanja FROM putovanje WHERE Trajanje = ' at line 2
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DROP VIEW IF EX...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DROP VIEW IF EX...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DROP VIEW IF EX...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(224): CodeIgniter\Database\BaseConnection->query('DROP VIEW IF EX...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 06:16:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE VIEW Kriterijumi AS
+(SELECT IdPutovanja FROM putovanje WHERE Trajanje = ' at line 2
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DROP VIEW IF EX...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DROP VIEW IF EX...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DROP VIEW IF EX...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(224): CodeIgniter\Database\BaseConnection->query('DROP VIEW IF EX...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 06:16:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE VIEW Kriterijumi AS
+(SELECT IdPutovanja FROM putovanje WHERE Trajanje = ' at line 2
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DROP VIEW IF EX...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DROP VIEW IF EX...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DROP VIEW IF EX...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(224): CodeIgniter\Database\BaseConnection->query('DROP VIEW IF EX...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 06:16:38 --> Undefined index: radio
+#0 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\v...', 178, Array)
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#3 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#6 {main}
+CRITICAL - 2020-05-25 06:16:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE VIEW Kriterijumi AS
+(SELECT IdPutovanja FROM putovanje WHERE Trajanje = ' at line 2
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DROP VIEW IF EX...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DROP VIEW IF EX...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DROP VIEW IF EX...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(224): CodeIgniter\Database\BaseConnection->query('DROP VIEW IF EX...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 06:17:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE VIEW Kriterijumi AS
+SELECT IdPutovanja FROM putovanje p WHERE Trajanje =' at line 2
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('DROP VIEW IF EX...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DROP VIEW IF EX...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('DROP VIEW IF EX...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(223): CodeIgniter\Database\BaseConnection->query('DROP VIEW IF EX...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
+CRITICAL - 2020-05-25 06:18:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';
+     
+SELECT * FROM putovanje p
+WHERE IdPutovanja = 
+(SELECT IdPutovanja
+' at line 8
+#0 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('WITH Kriterijum...')
+#1 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('WITH Kriterijum...')
+#2 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('WITH Kriterijum...')
+#3 C:\wamp64\www\vaseputovanje\app\Controllers\Gost.php(222): CodeIgniter\Database\BaseConnection->query('WITH Kriterijum...')
+#4 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Gost->pronadji_idealno()
+#5 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gost))
+#6 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\vaseputovanje\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\vaseputovanje\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\v...')
+#9 {main}
