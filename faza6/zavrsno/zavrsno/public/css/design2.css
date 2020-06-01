@@ -1,0 +1,37 @@
+img{
+    height: 50px;
+}
+td, th {
+    border-bottom: 1px solid #d6d6d6;
+  }
+.P{
+    padding-top: 200px;
+}
+input[type=submit] {
+    background-color: red;
+    color: white;
+    border:none;
+    cursor: pointer;
+    padding: 16px;
+  }
+  table{
+      background-color: rgb(241, 241, 241);
+  }
+  input[type=text],select {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  #G{
+    background-color:black;
+    color: white;
+    border:none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 16px;
+  }
+  body{
+      background-color: lightblue;
+  }
