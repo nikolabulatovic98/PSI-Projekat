@@ -1,0 +1,260 @@
+{
+  "id": "a1e29bc8-b56f-44b6-88f0-e3d1f4ac60f1",
+  "version": "2.0",
+  "name": "dodavanje_putovanja",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "a568469a-6cff-42e5-a99f-4065fae35a0e",
+    "name": "dodajputovanje-test",
+    "commands": [{
+      "id": "8ff7a71b-ae8e-4fb4-925c-57c4780913ef",
+      "comment": "",
+      "command": "open",
+      "target": "/KorisnikM/dodajPutovanje",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61e4e151-0e0e-48a9-9784-99ad6c4e20c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70e2d2ad-535c-40e3-ae7f-ac21586356e5",
+      "comment": "",
+      "command": "click",
+      "target": "name=DESTINACIJA",
+      "targets": [
+        ["name=DESTINACIJA", "name"],
+        ["css=.option:nth-child(3)", "css:finder"],
+        ["xpath=//select[@name='DESTINACIJA']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c76d224c-7da7-40f9-b65a-d96616c8dec4",
+      "comment": "",
+      "command": "select",
+      "target": "name=DESTINACIJA",
+      "targets": [],
+      "value": "label=Austrija/Beč"
+    }, {
+      "id": "04167cb1-41f3-46fa-8175-68508be6c28d",
+      "comment": "",
+      "command": "click",
+      "target": "name=DESTINACIJA",
+      "targets": [
+        ["name=DESTINACIJA", "name"],
+        ["css=.option:nth-child(3)", "css:finder"],
+        ["xpath=//select[@name='DESTINACIJA']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84637683-9044-4ed5-ad05-621ae33af821",
+      "comment": "",
+      "command": "click",
+      "target": "name=SAPUTNIK",
+      "targets": [
+        ["name=SAPUTNIK", "name"],
+        ["css=.option:nth-child(5)", "css:finder"],
+        ["xpath=//select[@name='SAPUTNIK']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb3eda28-a826-4038-b0f1-c3fcd083bc09",
+      "comment": "",
+      "command": "select",
+      "target": "name=SAPUTNIK",
+      "targets": [],
+      "value": "label=Društvo"
+    }, {
+      "id": "9dd467cb-8863-485c-8cb0-d69a14a33078",
+      "comment": "",
+      "command": "click",
+      "target": "name=SAPUTNIK",
+      "targets": [
+        ["name=SAPUTNIK", "name"],
+        ["css=.option:nth-child(5)", "css:finder"],
+        ["xpath=//select[@name='SAPUTNIK']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bb9b70c-0435-4c36-872a-adaf9a874cc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.radio:nth-child(12) > .radio-two",
+      "targets": [
+        ["css=.radio:nth-child(12) > .radio-two", "css:finder"],
+        ["xpath=(//input[@name='rdiobtn'])[4]", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d702dbe8-d2c5-4e42-836b-df385998a34d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dugme",
+      "targets": [
+        ["css=.dugme", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Potvrdi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88568a15-651f-49ac-996b-33928115bbce",
+      "comment": "",
+      "command": "click",
+      "target": "name=DESTINACIJA",
+      "targets": [
+        ["name=DESTINACIJA", "name"],
+        ["css=.option:nth-child(3)", "css:finder"],
+        ["xpath=//select[@name='DESTINACIJA']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ec60854-c96e-4f9e-aca6-a0f0a52c26a0",
+      "comment": "",
+      "command": "select",
+      "target": "name=DESTINACIJA",
+      "targets": [],
+      "value": "label=Austrija/Beč"
+    }, {
+      "id": "6a292b0a-8d8a-4cef-b6f3-68877f025d14",
+      "comment": "",
+      "command": "click",
+      "target": "name=DESTINACIJA",
+      "targets": [
+        ["name=DESTINACIJA", "name"],
+        ["css=.option:nth-child(3)", "css:finder"],
+        ["xpath=//select[@name='DESTINACIJA']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc5cd716-dfe1-4bd7-b9c4-00218de79d8b",
+      "comment": "",
+      "command": "click",
+      "target": "name=SAPUTNIK",
+      "targets": [
+        ["name=SAPUTNIK", "name"],
+        ["css=.option:nth-child(5)", "css:finder"],
+        ["xpath=//select[@name='SAPUTNIK']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "135c809a-083e-4372-bfbb-78dac674f265",
+      "comment": "",
+      "command": "select",
+      "target": "name=SAPUTNIK",
+      "targets": [],
+      "value": "label=Društvo"
+    }, {
+      "id": "519f2638-a13c-49bf-8ce7-aa2d337f2d83",
+      "comment": "",
+      "command": "click",
+      "target": "name=SAPUTNIK",
+      "targets": [
+        ["name=SAPUTNIK", "name"],
+        ["css=.option:nth-child(5)", "css:finder"],
+        ["xpath=//select[@name='SAPUTNIK']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d547992-366e-465b-805a-57b2f176c9bf",
+      "comment": "",
+      "command": "click",
+      "target": "name=TRAJANJE",
+      "targets": [
+        ["name=TRAJANJE", "name"],
+        ["css=.option:nth-child(7)", "css:finder"],
+        ["xpath=//select[@name='TRAJANJE']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90d50665-dc7d-40a3-ad2c-fb2089cbcd6f",
+      "comment": "",
+      "command": "select",
+      "target": "name=TRAJANJE",
+      "targets": [],
+      "value": "label=5-7 dana"
+    }, {
+      "id": "a6491ceb-afb8-4ae3-8140-55ec4790bc33",
+      "comment": "",
+      "command": "click",
+      "target": "name=TRAJANJE",
+      "targets": [
+        ["name=TRAJANJE", "name"],
+        ["css=.option:nth-child(7)", "css:finder"],
+        ["xpath=//select[@name='TRAJANJE']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0840d26-8c54-4c5f-91ee-94a5841e6a9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.radio:nth-child(12) > .radio-two",
+      "targets": [
+        ["css=.radio:nth-child(12) > .radio-two", "css:finder"],
+        ["xpath=(//input[@name='rdiobtn'])[4]", "xpath:attributes"],
+        ["xpath=//label[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c182316-96c8-4be6-9e37-0ad12e3df1c7",
+      "comment": "",
+      "command": "click",
+      "target": "name=KOMENTAR",
+      "targets": [
+        ["name=KOMENTAR", "name"],
+        ["css=.company", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43325361-9b19-492c-b923-66cd8b0be8d5",
+      "comment": "",
+      "command": "type",
+      "target": "name=KOMENTAR",
+      "targets": [
+        ["name=KOMENTAR", "name"],
+        ["css=.company", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Lepo smo se proveli ali vreme je bilo jako lose!"
+    }, {
+      "id": "1465e2a2-fbfe-4409-83ab-0776d73ccac9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dugme",
+      "targets": [
+        ["css=.dugme", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Potvrdi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c4277142-c7fc-4774-98f6-778287d5b209",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a568469a-6cff-42e5-a99f-4065fae35a0e"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}

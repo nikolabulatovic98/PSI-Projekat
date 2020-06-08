@@ -1,0 +1,88 @@
+{
+  "id": "1bc095dc-7830-4d15-889b-feb417ae8d15",
+  "version": "2.0",
+  "name": "idealno_putovanje_korisnik",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "f7d06ef7-f91b-4842-a984-a8d957c85311",
+    "name": "idealnokorisnik-test",
+    "commands": [{
+      "id": "683d49ec-b33f-4924-ac43-845fa6defe82",
+      "comment": "",
+      "command": "open",
+      "target": "/KorisnikM/idealno_putovanje",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6d442a4-5976-408c-999d-96dbaf12fd1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1283x843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75b66fe6-3cc3-47bf-bec8-e31b259c6bf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .container1:nth-child(3) > .checkmark",
+      "targets": [
+        ["css=tr:nth-child(2) .container1:nth-child(3) > .checkmark", "css:finder"],
+        ["xpath=//label[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc76807c-c030-4381-ba74-58ade109eb97",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(6) .container1:nth-child(2) > .checkmark",
+      "targets": [
+        ["css=tr:nth-child(6) .container1:nth-child(2) > .checkmark", "css:finder"],
+        ["xpath=//tr[6]/td/label[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c29e489a-f2f8-40e3-aa5a-d29c6bf8e214",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pronadji putovanje')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35e2c8e4-0de8-4250-9442-ac038a1d9028",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7b9e0d3-f0a2-43b8-a838-2573a62a621a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pronadji idealno putovanje",
+      "targets": [
+        ["linkText=Pronadji idealno putovanje", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Pronadji idealno putovanje')]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost:8080/KorisnikM/idealno_putovanje']", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pronadji idealno putovanje')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2981d619-ac19-40a7-80f9-59e779841f04",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f7d06ef7-f91b-4842-a984-a8d957c85311"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
