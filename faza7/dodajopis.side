@@ -1,0 +1,195 @@
+{
+  "id": "3ca8815d-b4e7-44f6-89be-1d6d38e208fd",
+  "version": "2.0",
+  "name": "dodajopis",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "8c6eaaa6-0d52-45c8-9d26-a9e3825e2a24",
+    "name": "dodajopis-test",
+    "commands": [{
+      "id": "d0db138e-4e7a-40ab-81ef-d2170ecbcb73",
+      "comment": "",
+      "command": "open",
+      "target": "/Moderator/dodajPutovanje",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc972700-48a0-4f0b-8fac-00907bccda18",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c98a89e6-fd98-4afa-bcb3-287607038c8f",
+      "comment": "",
+      "command": "click",
+      "target": "name=destinacija",
+      "targets": [
+        ["name=destinacija", "name"],
+        ["css=.option:nth-child(4)", "css:finder"],
+        ["xpath=//select[@name='destinacija']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83dcb633-a186-44fe-a199-3c29ef785c5f",
+      "comment": "",
+      "command": "select",
+      "target": "name=destinacija",
+      "targets": [],
+      "value": "label=Holandija/Amsterdam"
+    }, {
+      "id": "3391c013-a642-4618-9d7d-fcd292b4bb83",
+      "comment": "",
+      "command": "click",
+      "target": "name=destinacija",
+      "targets": [
+        ["name=destinacija", "name"],
+        ["css=.option:nth-child(4)", "css:finder"],
+        ["xpath=//select[@name='destinacija']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d976881-8c48-4628-8fbb-d6f152db30e1",
+      "comment": "",
+      "command": "click",
+      "target": "name=saputnik",
+      "targets": [
+        ["name=saputnik", "name"],
+        ["css=.option:nth-child(6)", "css:finder"],
+        ["xpath=//select[@name='saputnik']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12d03489-c038-4e12-9711-5b77450cd789",
+      "comment": "",
+      "command": "select",
+      "target": "name=saputnik",
+      "targets": [],
+      "value": "label=Društvo"
+    }, {
+      "id": "5e1a54ea-4d8e-400a-8232-6fced9a80219",
+      "comment": "",
+      "command": "click",
+      "target": "name=saputnik",
+      "targets": [
+        ["name=saputnik", "name"],
+        ["css=.option:nth-child(6)", "css:finder"],
+        ["xpath=//select[@name='saputnik']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17afee34-0bd2-446b-9450-0f3286fb04cc",
+      "comment": "",
+      "command": "click",
+      "target": "name=trajanje",
+      "targets": [
+        ["name=trajanje", "name"],
+        ["css=.option:nth-child(8)", "css:finder"],
+        ["xpath=//select[@name='trajanje']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6094a9e-6b04-4755-a6a4-66c1e984132d",
+      "comment": "",
+      "command": "select",
+      "target": "name=trajanje",
+      "targets": [],
+      "value": "label=5-7 dana"
+    }, {
+      "id": "d09dc829-3439-4cf6-ad2d-f3d7d23f77e4",
+      "comment": "",
+      "command": "click",
+      "target": "name=trajanje",
+      "targets": [
+        ["name=trajanje", "name"],
+        ["css=.option:nth-child(8)", "css:finder"],
+        ["xpath=//select[@name='trajanje']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b6e048e-1fc3-486c-9b89-0f1a3f5e202d",
+      "comment": "",
+      "command": "click",
+      "target": "name=Uzrast",
+      "targets": [
+        ["name=Uzrast", "name"],
+        ["css=.option:nth-child(10)", "css:finder"],
+        ["xpath=//select[@name='Uzrast']", "xpath:attributes"],
+        ["xpath=//select[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1f4a494-ef81-458a-b6aa-0dbd5b177379",
+      "comment": "",
+      "command": "select",
+      "target": "name=Uzrast",
+      "targets": [],
+      "value": "label=18 - 35 godina"
+    }, {
+      "id": "b3386728-4755-482e-8081-f7f32ad30799",
+      "comment": "",
+      "command": "click",
+      "target": "name=Uzrast",
+      "targets": [
+        ["name=Uzrast", "name"],
+        ["css=.option:nth-child(10)", "css:finder"],
+        ["xpath=//select[@name='Uzrast']", "xpath:attributes"],
+        ["xpath=//select[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f9eaf58-85ff-432f-a59e-51592c4fabc5",
+      "comment": "",
+      "command": "click",
+      "target": "name=opis",
+      "targets": [
+        ["name=opis", "name"],
+        ["css=.company", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef2d605f-95e8-4906-a127-31b9b9747b6c",
+      "comment": "",
+      "command": "type",
+      "target": "name=opis",
+      "targets": [
+        ["name=opis", "name"],
+        ["css=.company", "css:finder"],
+        ["xpath=//textarea[@id='']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Lep grad"
+    }, {
+      "id": "9a3999c3-66cd-4125-8581-6d56e987dea7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dugme",
+      "targets": [
+        ["css=.dugme", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Potvrdi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "97644aa1-f5db-4821-a669-73a68898fbb3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8c6eaaa6-0d52-45c8-9d26-a9e3825e2a24"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}

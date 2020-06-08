@@ -1,0 +1,189 @@
+{
+  "id": "c1e00555-172a-447f-a34c-8af6a1f04535",
+  "version": "2.0",
+  "name": "adminLogin",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "6e6b9cf7-214e-4966-9006-dfdd2c47b171",
+    "name": "adminlogin-test",
+    "commands": [{
+      "id": "ae1822d9-06fa-4e56-8972-c1ce5751a485",
+      "comment": "",
+      "command": "open",
+      "target": "/Administrator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af5dca95-218e-4f2e-b90d-c9631eec275f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1283x843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "069a629f-7cfc-4460-800f-8a5b0a22bf16",
+      "comment": "",
+      "command": "click",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df6f370e-9d7b-4e8d-9a67-662c91c1cdf8",
+      "comment": "",
+      "command": "type",
+      "target": "name=korime",
+      "targets": [
+        ["name=korime", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='korime']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "jankon98"
+    }, {
+      "id": "8f937faa-c634-4246-b51a-4e6c36b56549",
+      "comment": "",
+      "command": "click",
+      "target": "name=lozinka",
+      "targets": [
+        ["name=lozinka", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='lozinka']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea2a0cec-1b19-41d2-a433-2899a8f562cb",
+      "comment": "",
+      "command": "type",
+      "target": "name=lozinka",
+      "targets": [
+        ["name=lozinka", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='lozinka']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "74ebe132-1f24-4c78-a4bc-f85abd51473a",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dd0e23a-8903-43f5-9e53-87f5dbc50773",
+      "comment": "",
+      "command": "click",
+      "target": "name=lozinka",
+      "targets": [
+        ["name=lozinka", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='lozinka']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91419782-5a75-46ef-ab23-c23cb24cb997",
+      "comment": "",
+      "command": "type",
+      "target": "name=lozinka",
+      "targets": [
+        ["name=lozinka", "name"],
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='lozinka']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "96b12977-8113-48e9-9c6a-daa3ee56fc55",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(10)",
+      "targets": [
+        ["css=input:nth-child(10)", "css:finder"],
+        ["xpath=//input[@name='']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9427a55e-7b3d-4af7-a14d-d730b1cd465b",
+      "comment": "",
+      "command": "click",
+      "target": "name=KORISNICI",
+      "targets": [
+        ["name=KORISNICI", "name"],
+        ["css=.option", "css:finder"],
+        ["xpath=//select[@name='KORISNICI']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'--Izaberite korisnika--')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd82dcdd-d510-49e1-aa10-c13259a9d7f1",
+      "comment": "",
+      "command": "click",
+      "target": "name=KORISNICI",
+      "targets": [
+        ["name=KORISNICI", "name"],
+        ["css=.option", "css:finder"],
+        ["xpath=//select[@name='KORISNICI']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'--Izaberite korisnika--')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8fb58c5-2424-4c31-8c59-c84f223d9136",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=KORISNICI",
+      "targets": [
+        ["name=KORISNICI", "name"],
+        ["css=.option", "css:finder"],
+        ["xpath=//select[@name='KORISNICI']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'--Izaberite korisnika--')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "828f3137-049f-4561-b3fd-b51ca9bf032c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Izloguj se",
+      "targets": [
+        ["linkText=Izloguj se", "linkText"],
+        ["css=.navbar > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Izloguj se')]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost:8080/Administrator/izlogujse']", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Izloguj se')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21b2d2dd-8016-4cd6-83de-94b0ecb7dd55",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a4d92013-a354-4ca0-a96d-cd6ec0fa2b49",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6e6b9cf7-214e-4966-9006-dfdd2c47b171"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}

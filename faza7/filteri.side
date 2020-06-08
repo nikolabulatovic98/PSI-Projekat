@@ -1,0 +1,278 @@
+{
+  "id": "df8036ae-ae34-400b-b2f2-73ab0aa59f31",
+  "version": "2.0",
+  "name": "filteri",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "62a4eebf-b2bd-463b-b438-60a4bfea8d6d",
+    "name": "filteri-test",
+    "commands": [{
+      "id": "6e5cc39c-592d-4e91-a307-d390129d71c8",
+      "comment": "",
+      "command": "open",
+      "target": "/KorisnikM/pretraga",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1dce5af9-0de4-43e9-a53f-1bcd6fb6cd5d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0cdcac3-666b-49af-8965-16efc7f2249c",
+      "comment": "",
+      "command": "click",
+      "target": "name=ocena",
+      "targets": [
+        ["name=ocena", "name"],
+        ["css=.option:nth-child(4)", "css:finder"],
+        ["xpath=//select[@name='ocena']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca018003-9255-4942-842c-cf58dcc64fc0",
+      "comment": "",
+      "command": "select",
+      "target": "name=ocena",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "95d191ac-a6cd-43ce-8388-9fb7bdc96cb6",
+      "comment": "",
+      "command": "click",
+      "target": "name=ocena",
+      "targets": [
+        ["name=ocena", "name"],
+        ["css=.option:nth-child(4)", "css:finder"],
+        ["xpath=//select[@name='ocena']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d42a3cd-a61d-4287-bf42-a1dc4d6d8108",
+      "comment": "",
+      "command": "click",
+      "target": "name=saputnik",
+      "targets": [
+        ["name=saputnik", "name"],
+        ["css=.option:nth-child(6)", "css:finder"],
+        ["xpath=//select[@name='saputnik']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9a8d293-ab41-4054-a1f4-c16e24625e8b",
+      "comment": "",
+      "command": "select",
+      "target": "name=saputnik",
+      "targets": [],
+      "value": "label=Društvo"
+    }, {
+      "id": "2bc5d3a9-9327-41fc-8493-4cc769bbe8da",
+      "comment": "",
+      "command": "click",
+      "target": "name=saputnik",
+      "targets": [
+        ["name=saputnik", "name"],
+        ["css=.option:nth-child(6)", "css:finder"],
+        ["xpath=//select[@name='saputnik']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aad3a25-bcff-499b-8e95-b4c78d61c121",
+      "comment": "",
+      "command": "click",
+      "target": "name=trajanje",
+      "targets": [
+        ["name=trajanje", "name"],
+        ["css=.option:nth-child(8)", "css:finder"],
+        ["xpath=//select[@name='trajanje']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b1c3df9-b515-4521-87ed-f691b23655c8",
+      "comment": "",
+      "command": "select",
+      "target": "name=trajanje",
+      "targets": [],
+      "value": "label=1-3 dana"
+    }, {
+      "id": "0f2014d1-dd6e-4b18-b2d7-de87251e07ae",
+      "comment": "",
+      "command": "click",
+      "target": "name=trajanje",
+      "targets": [
+        ["name=trajanje", "name"],
+        ["css=.option:nth-child(8)", "css:finder"],
+        ["xpath=//select[@name='trajanje']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3d183f9-61e9-4e84-8a61-9cd74abfa101",
+      "comment": "",
+      "command": "click",
+      "target": "name=Uzrast",
+      "targets": [
+        ["name=Uzrast", "name"],
+        ["css=.option:nth-child(10)", "css:finder"],
+        ["xpath=//select[@name='Uzrast']", "xpath:attributes"],
+        ["xpath=//select[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a17d1eba-0b5e-4ea5-9035-ef7b824f27a0",
+      "comment": "",
+      "command": "select",
+      "target": "name=Uzrast",
+      "targets": [],
+      "value": "label=Više od 55 godina"
+    }, {
+      "id": "d6006546-6596-447e-beed-321b4077ee35",
+      "comment": "",
+      "command": "click",
+      "target": "name=Uzrast",
+      "targets": [
+        ["name=Uzrast", "name"],
+        ["css=.option:nth-child(10)", "css:finder"],
+        ["xpath=//select[@name='Uzrast']", "xpath:attributes"],
+        ["xpath=//select[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb476941-47c1-409a-a0f8-ea09bcc85dc0",
+      "comment": "",
+      "command": "click",
+      "target": "name=vrsta",
+      "targets": [
+        ["name=vrsta", "name"],
+        ["css=.option:nth-child(12)", "css:finder"],
+        ["xpath=//select[@name='vrsta']", "xpath:attributes"],
+        ["xpath=//select[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb64a45e-67a4-467d-8664-194b5570d88f",
+      "comment": "",
+      "command": "select",
+      "target": "name=vrsta",
+      "targets": [],
+      "value": "label=Daleke"
+    }, {
+      "id": "44f04fc9-363b-428d-a77c-80b081d49c37",
+      "comment": "",
+      "command": "click",
+      "target": "name=vrsta",
+      "targets": [
+        ["name=vrsta", "name"],
+        ["css=.option:nth-child(12)", "css:finder"],
+        ["xpath=//select[@name='vrsta']", "xpath:attributes"],
+        ["xpath=//select[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a057159-b5eb-453e-ad7e-f73ec6437989",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dugme",
+      "targets": [
+        ["css=.dugme", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pretraži')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "156ba7fb-93af-4dfd-a85c-75bd9d16690e",
+      "comment": "",
+      "command": "click",
+      "target": "name=ocena",
+      "targets": [
+        ["name=ocena", "name"],
+        ["css=.option:nth-child(4)", "css:finder"],
+        ["xpath=//select[@name='ocena']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba60d841-9d37-4378-8004-d0ae8340e5c6",
+      "comment": "",
+      "command": "select",
+      "target": "name=ocena",
+      "targets": [],
+      "value": "label=5"
+    }, {
+      "id": "fa164d0e-2946-4f0c-b6c1-9ad7ed4f777b",
+      "comment": "",
+      "command": "click",
+      "target": "name=ocena",
+      "targets": [
+        ["name=ocena", "name"],
+        ["css=.option:nth-child(4)", "css:finder"],
+        ["xpath=//select[@name='ocena']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e99e12c5-cb3c-4117-ac86-5d8b31eede81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dugme",
+      "targets": [
+        ["css=.dugme", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pretraži')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e95a7557-18ca-4caa-aef3-81d5e580025b",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(14)",
+      "targets": [
+        ["css=a:nth-child(14)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Saznaj vise>')])[6]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost:8080/KorisnikM/vidiopis/12']", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a39cab0-8ad7-4f75-bdba-c01d0fca2138",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7389bf4-eea4-4d18-9bcc-4ff01c7f317f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pretraži putovanja",
+      "targets": [
+        ["linkText=Pretraži putovanja", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Pretraži putovanja')]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost:8080/KorisnikM/pretraga']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pretraži putovanja')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4560e8f4-c202-4180-8db9-675904cb8258",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["62a4eebf-b2bd-463b-b438-60a4bfea8d6d"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}

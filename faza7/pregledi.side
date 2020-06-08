@@ -1,0 +1,77 @@
+{
+  "id": "d5353cb7-52cc-40fd-b967-f180f38cea2a",
+  "version": "2.0",
+  "name": "pregledi",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "84847f20-a5ea-4ee0-9082-bcab0ef1f32d",
+    "name": "pregledi-test",
+    "commands": [{
+      "id": "886a6681-0f07-46c7-9488-355ab918f544",
+      "comment": "",
+      "command": "open",
+      "target": "/KorisnikM/najposecenije",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fbe81b2-abaf-4e3b-9a6f-1e792ab111f3",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3abf384c-6216-4409-ac93-a4a6ff68b8ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1283x843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8c17d50-6ea3-4b5c-b3de-0d8d3b48f2b0",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=Moj nalog",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04c2c2eb-b655-4441-95ff-d8c83f96b78c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Moja putovanja",
+      "targets": [
+        ["linkText=Moja putovanja", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Moja putovanja')]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost:8080/KorisnikM/mojaPutovanja']", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Moja putovanja')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67fc2e02-7b6b-4116-af1f-2c6ee7e5bda5",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "519a23b8-3dc6-4891-b023-a64f20834c69",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3d8774b2-bb09-4a6f-aa07-cd0f26475a80",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["84847f20-a5ea-4ee0-9082-bcab0ef1f32d"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}

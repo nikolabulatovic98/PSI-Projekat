@@ -1,0 +1,99 @@
+{
+  "id": "c843e1b8-7639-40b6-909d-d4a852a36cdc",
+  "version": "2.0",
+  "name": "idealno_putovanje_gost",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "84cb296b-338e-45da-b18a-74dc9f4d040b",
+    "name": "idealnogost-test",
+    "commands": [{
+      "id": "ed1eda46-d5a5-40ec-9626-34e8a47459ea",
+      "comment": "",
+      "command": "open",
+      "target": "/Gost/idealno_putovanje",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09d90f2f-17e4-469c-8bca-a70514131f25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1283x843",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e57c0e3a-abe4-4138-970f-0204587fa62d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .container1:nth-child(3)",
+      "targets": [
+        ["css=tr:nth-child(2) .container1:nth-child(3)", "css:finder"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'35 - 55')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a0fb131-e301-4b71-8c8e-89728e8e5701",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(6) .container1:nth-child(2) > .checkmark",
+      "targets": [
+        ["css=tr:nth-child(6) .container1:nth-child(2) > .checkmark", "css:finder"],
+        ["xpath=//tr[6]/td/label[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f6348e-d64e-40f2-b5d7-40a8e09606d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(8) .container1:nth-child(3) > .checkmark",
+      "targets": [
+        ["css=tr:nth-child(8) .container1:nth-child(3) > .checkmark", "css:finder"],
+        ["xpath=//tr[8]/td/label[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa95236c-d392-4f1d-89fc-1c02ae477c37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button",
+      "targets": [
+        ["css=.button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pronadji putovanje')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f201521e-689b-4989-ba75-d1b6ff2f6207",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Traži putovanje",
+      "targets": [
+        ["linkText=Traži putovanje", "linkText"],
+        ["css=a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Traži putovanje')]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost:8080/Gost/idealno_putovanje']", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Traži putovanje')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "405b720d-77e2-40f6-b516-8f899b8da817",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "51e1d331-2f2b-4726-871d-176dc6aa8de5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["84cb296b-338e-45da-b18a-74dc9f4d040b"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
