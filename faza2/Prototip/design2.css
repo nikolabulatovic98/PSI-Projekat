@@ -35,3 +35,10 @@ input[type=submit] {
   body{
       background-color: lightblue;
   }
+  #ad{
+    background-color:green;
+    color: white;
+    border:none;
+    cursor: pointer;
+    padding: 16px;
+  }
